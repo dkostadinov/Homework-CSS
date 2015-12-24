@@ -1,0 +1,103 @@
+@CHARSET "ISO-8859-1";
+
+header {
+	width: 80%;
+	background-color: #8B6914;
+	height: 220px;
+	margin: auto;
+}
+
+header > h1,h3 {
+	color: #FFFFFF;
+}
+
+h1 {
+	padding: 10px 0px 10px 40px;	
+}
+
+h3 {
+	margin: 10px 0px 50px 60px;
+}
+
+#left {
+	width: 15%;
+	float: left;
+	background-color: #490000;
+	height: 640px;
+	margin-left: 10%;
+}
+
+section {
+	margin:auto;
+	width: 50%;
+	height: 640px;
+	background-color: #FCF6CF;
+	display: inline-block;
+}
+
+#right {
+	width: 15%;
+	float: right;
+	height: 640px;
+	background-color: #8B864E;
+	margin-right: 10%;
+
+}
+
+footer {
+	
+	
+	width: 80%;
+	height: 70px;
+	background-color: #555555;
+	float: left;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+footer > h3 {
+	color: black;
+	margin-top: 35px;
+}
+
+
+
+#navigation {
+	
+	width: 90%;
+	height: 50%;
+	background-color: #694A4A;
+	color: #ffffff;
+}
+
+#navigation > h1 {
+	font-size: 2em;
+	margin: 0px;
+}
+
+li {
+	margin: 35px 35px 35px 20px;
+}
+
+#failed {
+	width: 100%;
+	height: 20%;
+	background-color: #A29E71;
+}
+
+#failed > h1 {
+	margin: 0px 30px;
+	font-size: 2em;
+	text-align: right;
+}
+
+#paragraphs {
+	text-align: justify;
+	
+	font-size: 18px;
+}
+
+#paragraphs > p {
+	margin: 50px 50px;
+}}

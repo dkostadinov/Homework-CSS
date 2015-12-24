@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+
+header {
+	color:rgba(0,0,0,0);
+	width: 50%;
+	margin:auto;
+	margin-bottom: 10px;
+	background-color: cadetblue;
+	height: 170px;
+}
+
+aside {
+	color:rgba(0,0,0,0);
+	float:left;
+	display: inline-block;
+	margin: 10px 10px 10px 25%;
+	background-color: magenta;
+	height: 600px;
+	width: 15%;
+}
+
+section {
+	color:rgba(0,0,0,0);
+	float: right;
+	margin: 10px 25% 10px 10px;
+	background-color: lime;
+	width: 33%;
+	height: 600px;
+}
+
+footer {
+	color:rgba(0,0,0,0);
+	background-color: blue;
+	float: left;
+	margin: 10px 10px 10px 25%;
+	width: 50%;
+	height: 170px;
+	
+}

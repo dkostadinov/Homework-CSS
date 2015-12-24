@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+	
+		<style type="text/css">
+		
+		 	@-webkit-keyframes moveTheBall {
+			
+				from { transform: rotate(0deg) translateX(110px) rotate(0deg); }
+    			to   { transform: rotate(360deg) translateX(110px) rotate(-360deg); }
+				
+			}
+			
+			@-moz-keyframes moveTheBall {
+			
+				from { transform: rotate(0deg) translateX(110px) rotate(0deg); }
+    			to   { transform: rotate(360deg) translateX(110px) rotate(-360deg); }
+				
+			}
+			
+			@-o-keyframes moveTheBall {
+			
+				from { transform: rotate(0deg) translateX(110px) rotate(0deg); }
+    			to   { transform: rotate(360deg) translateX(110px) rotate(-360deg); }
+				
+			}
+			#roulette {
+				
+				width: 700px;
+				heigth: 400 px;
+				position: absolute; top: 300px; left: 750px; bottom: 100px; right: 650px;
+				
+			} 
+			
+			#ball {
+				animation: moveTheBall;
+				animation-timing-function: linear;
+				animation-duration: 2s;
+				animation-iteration-count: 3;
+				width: 	15px;
+				height: 15px;
+				background-color: black;
+				border-radius: 7px;
+				
+				position: absolute; top:450px; left: 905px; bottom: 100px; right: 650px;
+				
+			}
+		
+		
+		</style>
+	</head>
+	
+	<body>
+		<div id="roulette">
+		
+			<img src="roulette.png" alt="" />
+		</div>
+		
+		<div id="ball">
+		
+		
+		</div>
+	
+	</body>
+</html>
